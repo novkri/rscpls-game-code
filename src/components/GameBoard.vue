@@ -60,7 +60,6 @@ export default {
   }),
   methods: {
     changeState({ state, item }) {
-      console.log(state, item);
       this.state = state;
       this.userSelectedCap = item;
     },
